@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ass.css" />
+    <title>MEDICAL REPORT FORM</title>
+  </head>
+  <body>
+    <center>
+      <div id="maindiv">
+        <div class="sub" onclick="selectImage()"><p>ATTACH PASSPORT PHOTO</p></div><br><br>
+        <input type="file" id="fileInput" style="display: none;">
+        <header><strong>MEDICAL RECORD FORM</strong></header>
+        <br /><br /><br><br><br><br><br><br>
+        <form action="" class="form">
+    <label class="nc" for="nch"><strong>Name of Child:</strong></label>
+        <input type="name" id="name" placeholder class="a" />
+
+        <label class="db" for="dob"><strong>D.O.B:</strong></label>
+        <input type="date" id="DOB" placeholder class="b" /><br><br>
+
+        <label class="mn" for="mna"><strong> Mother's Name:</strong></label>
+        <input type="name" id="mn" placeholder class="c" /><br><br>
+
+        <label class="ad" for="add"><strong> Address:</strong></label>
+        <input type="address" id="address" placeholder class="d" /><br><br>
+
+        <label class="hn" for="hno"><strong>Home Phone Number:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="e" />
+
+        <label class="wn" for="wno"><strong>Work Phone Number:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="f"/> <br> <br>
+
+        <label class="cp" for="cep"><strong>Cell phone:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="g" />
+
+        <label class="email" for="email" ><strong>E-mail Address:</strong></label>
+        <input type="email" id="e-mail" placeholder class="h" /><br><br>
+        <br><br>
+
+        <label class="child_hp" for="child_hd"><strong>Father's Name:</strong></label>
+        <input type="name" id="name" placeholder class="holder" /> <br><br>
+
+        <label class="ad" for="add"><strong> Address:</strong></label>
+        <input type="address" id="address" placeholder class="d" ><br><br>
+
+        <label class="hn" for="hno"><strong>Home Phone Number:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="e" />
+
+        <label class="wn" for="wno"><strong>Work Phone Number:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="f"/> <br><br>
+
+        <label class="cp" for="cep"><strong>Cell phone:</strong></label>
+        <input type="phone number" id="phone number" placeholder class="g" />
+
+        <label class="email" for="email"><strong>E-mail Address:</strong></label>
+        <input type="email" id="e-mail" placeholder class="h" /><br><br>
+
+        <label  for=""><strong>Gender:</strong></label>
+        <input type="name" id="name" placeholder class="Gender" /> <br><br>
+
+        <label  for=""><strong>Next OF Kin's Name:</strong></label>
+        <input type="name" id="name" placeholder class="next" /> <br><br>
+
+        <label  for=""><strong>Next OF Kin's Phone Number:</strong></label>
+        <input type="name" id="name" placeholder class="kin" /> <br><br>
+
+        <label  for=""><strong>Address:</strong></label>
+        <input type="name" id="name" placeholder class="add" /> <br><br>
+
+        <label  for=""><strong>Phone Number:</strong></label>
+        <input type="name" id="name" placeholder class="holder" /> <br><br>
+
+        <label  for=""><strong>Insurance Information:</strong></label>
+        <input type="name" id="name" placeholder class="insurance" /> <br><br>
+
+        <label  for=""><strong>Chiid's Medical Record:</strong></label>
+        <input type="name" id="name" placeholder class="child_record" /> <br><br>
+
+        <label  for=""><strong>Chronic Illnessess:</strong></label>
+        <input type="name" id="name" placeholder class="Chro" /> <br><br>
+
+        <label  for=""><strong>Allergies:</strong></label>
+        <input type="name" id="name" placeholder class="All" /> <br><br>
+
+        <label  for=""><strong>Current Medications :</strong></label>
+        <input type="name" id="name" placeholder class="special_info" /> <br><br>
+
+        <label for=""><strong>Special Information: </strong></label>
+        <input type="info " id="" placeholder="" class="special_info"><br><br><br>
+     
+</form>
+
+<pre class="pre"><strong>Please note :</strong>Complete Immunization record must be on file 
+  prior to your child's frist day of enrollment.</pre>
+      
+
+
+      </div>
+    </center>
+    <script src="./ass.js"></script>
+    <script>
+      function selectImage() {
+        document.getElementById("fileInput").click();
+      }
+    </script>
+  </body>
+</html>
