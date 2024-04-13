@@ -1,0 +1,178 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.from{
+  text-align: left;
+}
+header{
+  font-size: xx-large;
+  text-align: center;
+}
+img{
+  padding-left: 0;
+}
+.a{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 50%;
+  border-style: dashed;
+  margin-left: 9px;
+  
+}
+.b{
+  margin-left: 50px;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 20%;
+  border-style: dashed;  
+}
+.c{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 76%;
+  border-style: dashed;   
+  margin-left: 50px;
+}
+.d{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 81%;
+  border-style: dashed; 
+  margin-left: 54px;  
+}
+.e{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 25%;
+  border-style: dashed;   
+  margin-left: 36px;
+}
+.f{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 30%;
+  border-style: dashed;   
+  
+}
+.g{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 22%;
+  border-style: dashed;   
+  margin-left: 40px;
+}
+.h{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 45%;
+  border-style: dashed;   
+}
+div{
+  padding: 50px;
+  border: 1px solid;
+  width: 1000px;
+}
+.sub{
+  height: 10vh;
+  width: 100px;
+  padding: 30px;
+ right: 0;
+ float: right;
+}
+p{
+font-size: 20px;
+}
+.holder{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 76%;
+  border-style: dashed;   
+  margin-left: 50px;
+}
+.Gender{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 76%;
+  border-style: dashed;   
+  margin-left: 107px;
+}
+.next{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 66%;
+  border-style: dashed;   
+  margin-left: 107px;
+}
+.kin{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 60%;
+  border-style: dashed;   
+  margin-left: 107px;
+}
+.insurance{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 70%;
+  border-style: dashed;  
+  margin-left: 55px;
+}
+.child_record{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 70%;
+  border-style: dashed; 
+  margin-left: 50px;
+  
+}
+.add{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid;
+  border-style: dashed;
+  width: 80%;
+  margin-left:54px;
+}
+.special_info{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid;
+  border-style: dashed;
+  width: 95%;
+  margin-left: 50px;
+}
+.All{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid;
+  border-style: dashed;
+  width: 80%;
+  margin-left: 53px;
+}
+.Chro{
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid;
+  border-style: dashed;
+  width: 74%;
+  margin-left: 43px;
+}
+.pre{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
