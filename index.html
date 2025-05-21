@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roommate Matching App</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+<div class="center-container">
+
+  <h1>Roommate Preference Form</h1>
+<form id="preferenceForm">
+  <label>Name:
+    <input type="text" id="name" required>
+  </label><br>
+
+  <label>Personality:
+    <select id="personality">
+      <option value="quiet">Quiet</option>
+      <option value="social">Social</option>
+      <option value="music">Music Lover</option>
+    </select>
+  </label><br>
+
+  <label>Sleeping Habit:
+    <select id="sleepingHabit">
+      <option value="early">Early Bird</option>
+      <option value="night">Night Owl</option>
+    </select>
+  </label><br>
+
+  <label>Tidiness Level:
+    <select id="tidiness">
+      <option value="veryTidy">Very Tidy</option>
+      <option value="average">Average</option>
+      <option value="messy">Messy</option>
+    </select>
+  </label><br>
+
+  <label>Do you snore?
+    <select id="snore">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+  </label><br>
+
+  <label>Do you play music loudly?
+    <select id="loudMusic">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+  </label><br>
+
+  <button type="submit">Find Match</button>
+</form>
+
+
+  <!-- Result Box -->
+  <div id="resultBox" style="display: none;"></div>
+
+  <!-- Continue Button (shown after match result) -->
+  <div id="continueSection" style="display: none; margin-top: 20px;">
+    <button id="continueBtn">Continue to Room Booking</button>
+  </div>
+
+  <!-- Room Booking Form -->
+  <div id="roomSelectionForm" style="display: none;">
+    <h2>Room Booking</h2>
+    <form id="bookingForm">
+      <label>Semester:
+        <select>
+          <option>First Semester</option>
+          <option>Second Semester</option>
+        </select>
+      </label><br>
+      <label>Hostel:
+        <select>
+          <option>Ajates</option>
+          <option>St. Mary's</option>
+          <option>God's Own</option>
+        </select>
+      </label><br>
+      <label>Block:
+        <select>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+        </select>
+      </label><br>
+      <label>Room:
+        <input type="number" min="1" max="50">
+      </label><br>
+      <label>Bunk:
+        <select>
+          <option>Top</option>
+          <option>Bottom</option>
+        </select>
+      </label><br><br>
+      <button type="submit">Book Room</button>
+    </form>
+  </div>
+
+</div>
+
+<script src="/js/index.js"></script>
+
+</body>
+</html>
